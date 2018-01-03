@@ -28,8 +28,8 @@ a{
 .container{
     width: 100%;
     margin:0 auto;
-    /*min-width: 1024px;*/
-    max-width: 1360px;
+    /*min-width: 1024px;
+    max-width: 1360px;*/
 }
 
 section{
@@ -75,16 +75,28 @@ img{
     width: 100%;
 }
 
-.width-80{
-    width: 60%;
-}
-
 .width-half{
     width: 50%;
     height: 100%;
     display: inline-block;
     margin: 0;
     vertical-align: middle;
+}
+
+.width-30{
+    width: 30%;
+    display: inline-block;
+    background-color: blue;
+}
+
+.width-70{
+    width: 70%;
+    display: inline-block;
+    background-color: orange;
+}
+
+.width-80{
+    width: 60%;
 }
 
 .backgroundGrey{
@@ -124,12 +136,15 @@ h1{
 h2{
     font-size: 26px;
     color: #354052;
-    margin: 1rem;
 }
 
 h3{
     font-size: 16px;
     color: #354052;
+}
+
+.text-left{
+    text-align: left;
 }
 
 .text-center{
@@ -179,14 +194,12 @@ h3{
     width: 100px;
     height: 100px;
     display: inline-block;
-
 }
 
 .squareInside{
     width: 90px;
     height: 90px;
     display: inline-block;
-
     color: #ef544a;
 }
 
@@ -201,13 +214,25 @@ h3{
 }
 
 button{
-    border: none;
+    border: 1px solid #ef544a;
     background-color: #ef544a;
     color: white;
-    padding: 0;
+    padding: 0 20px 0 20px;
     margin: 0;
+    line-height: 3rem;
 }
 
 input{
-    padding: 10px;
+    line-height: 3rem;
+    padding: 0 0 0 10px;
+    border: 1px solid #868992;
+    width: 300px;
+}
+
+input[placeholder]{
+    color:#b3b3b3;
+}
+
+i{
+    padding: 0 5px 0 5px;
 }
