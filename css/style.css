@@ -50,7 +50,6 @@ header{
     background-image: url("../img/header-building.png"), url("../img/header-do-people.png");
     background-blend-mode: overlay;
     margin-bottom: 100px;
-
     /* If two backgrounds are set, then values should be separated by comma*/
     /*background-size: 100%, 80%;
     background-position: left top, right bottom;*/
@@ -253,6 +252,7 @@ button{
 input{
     line-height: 3rem;
     padding: 0 0 0 10px;
+    margin-top: 10px;
     border: 1px solid #868992;
     width: 300px;
 }
