@@ -44,12 +44,16 @@ section{
 header{
     background-color: #354052;
     position: relative;
-    height: 500px;
+    height: 600px;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url("../img/header-building.png"), url("../img/header-do-people.png");
     background-blend-mode: overlay;
     margin-bottom: 100px;
+
+    /* If two backgrounds are set, then values should be separated by comma*/
+    /*background-size: 100%, 80%;
+    background-position: left top, right bottom;*/
 }
 
 footer{
