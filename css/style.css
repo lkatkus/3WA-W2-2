@@ -1,0 +1,150 @@
+@import url('normalize.css');
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.clearfix:after {
+   content: "";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.container{
+    background-color: orange;
+    width: 100%;
+    margin:0 auto;
+    /*min-width: 1024px;
+    max-width: 1360px;*/
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #354052;
+    position: relative;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-image: url("../img/header-building.png"), url("../img/header-do-people.png");
+    background-blend-mode: overlay;
+}
+
+footer{
+    background-color: #354052;
+    color: white;
+}
+
+nav{
+    display: inline-block;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.width-full{
+    width: 100%;
+    background-color: green;
+    padding: 30px;
+}
+
+.width-80{
+    width: 60%;
+    background-color: cyan;
+}
+
+.width-half{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0;
+    background: grey;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    float: left;
+}
+
+.backgroundGrey{
+    background-color: #eff3f6;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.vertical-align{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-red{
+    color: #ef544a;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-caps{
+    text-transform: uppercase;
+}
+
+.divContainer{
+    width: 60%;
+    border: 10px solid rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 0 20px 20px;
+    transform: translateY(50%);
+}
+
+.divContent{
+    background-color: #ef544a;
+    margin: -10px -10px 0 0;
+    padding-left: 20px;
+    float: right;
+    color: white;
+}
+
+.borderWhite{
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    padding: 0 0 5px 5px;
+}
+
+.borderRed{
+    border: 5px solid rgb(239, 84, 74);
+    margin: -5px -5px 0 0;
+}
