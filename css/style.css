@@ -63,12 +63,11 @@ ul li{
 .width-full{
     width: 100%;
     background-color: green;
-    padding: 30px;
+    padding: 20px;
 }
 
 .width-80{
     width: 60%;
-    background-color: cyan;
 }
 
 .width-half{
@@ -78,6 +77,7 @@ ul li{
     box-sizing: border-box;
     margin: 0;
     background: grey;
+    padding: 10px;
 }
 
 .square{
